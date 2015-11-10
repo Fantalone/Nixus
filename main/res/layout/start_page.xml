@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:background="@drawable/red_button"
+
+        android:text="Configuration"
+        android:onClick="go_config"
+        android:id="@+id/button10"
+
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+
+        android:layout_below="@id/textview"
+        android:layout_alignBottom="@+id/button"
+        android:layout_centerHorizontal="true"
+        style="@style/button_text" />
+
+    <Button
+        android:background="@drawable/orange_button"
+
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+
+        android:text="Excercise Alone"
+        android:onClick="go_recieve"
+        android:id="@+id/button11"
+
+        android:layout_below="@id/textview"
+        android:layout_alignBottom="@+id/button"
+        android:layout_centerHorizontal="true"
+        style="@style/button_text" />
+
+
+    <Button
+        android:background="@drawable/orange2_button"
+
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+
+        android:text="Excercise Together"
+        android:onClick="go_config"
+        android:id="@+id/button12"
+
+        android:layout_below="@id/textview"
+        android:layout_alignBottom="@+id/button"
+        android:layout_centerHorizontal="true"
+        style="@style/button_text" />
+    />
+
+    <Button
+        android:background="@drawable/orange3_button"
+
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+
+        android:text="See your assets"
+        android:onClick="go_config"
+        android:id="@+id/button13"
+
+        android:layout_below="@id/textview"
+        android:layout_alignBottom="@+id/button"
+        android:layout_centerHorizontal="true"
+        style="@style/button_text" />
+    />
+
+    <Button
+        android:background="@drawable/orange_button"
+
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+
+        android:text="About the App"
+        android:onClick="go_about"
+        android:id="@+id/button14"
+
+
+        android:layout_below="@id/textview"
+        android:layout_alignBottom="@+id/button"
+        android:layout_centerHorizontal="true"
+        style="@style/button_text" />
+    />
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+
+        android:id="@+id/imageView"
+        android:src="@mipmap/nixus"
+
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:theme="@style/Base.TextAppearance.AppCompat" />
+</LinearLayout>
+
+</ScrollView>
